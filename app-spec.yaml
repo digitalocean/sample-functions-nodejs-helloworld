@@ -1,0 +1,14 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+functions:
+- github:
+    branch: master
+    deploy_on_push: true
+    repo: digitalocean/sample-functions-nodejs-helloworld
+  name: nodejs-api
+  routes:
+  - path: /
+  source_dir: /
+name: nodejs-helloworld
+region: blr
