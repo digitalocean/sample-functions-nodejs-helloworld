@@ -1,13 +1,13 @@
 {
-  "name": "eval",
+  "name": "hello",
   "version": "1.0.0",
-  "description": "Hellow world : NodeJs",
+  "description": "Hello world: NodeJs",
   "main": "hello.js",
   "scripts": {
     "test": "jest --coverage --runInBand --forceExit --verbose false"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "jest": "^27.5.1"
-  },
-  "devDependencies": {}
+  }
 }
