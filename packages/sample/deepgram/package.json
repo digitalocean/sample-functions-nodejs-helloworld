@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@deepgram/sdk": "^3.1.9",
+    "dotenv": "^16.4.5"
+  }
+}
